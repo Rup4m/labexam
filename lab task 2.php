@@ -72,7 +72,11 @@
 
             <script>
 
-                
+                function handleStudentSubmit(){
+                    var name= document.getElementById("fullName").value.trim();
+                    
+
+                }
                 </script>
         </body>
 </html>
