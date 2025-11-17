@@ -28,6 +28,37 @@
                 border-radius: 4px;
             }
 
+             button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }  
+
+  button:hover {
+    background-color: black;
+  }
+
+
+   #error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }        
+
+
+    #successBox {
+        color: green;
+        background: #ffffffff;
+        padding: 10px;
+        margin: 10px auto;
+         width: 320px;
+         border: 1px solid green;
+         border-radius: 5px;
+         display: none;
+
+    }
+
+
             
 
             </style>
@@ -55,6 +86,9 @@
 
                 <button type="submit">Register</button>
             </form>
+
+            <div id="error"></div>
+              <div id="successBox"></div>
 
 
             <div class="course">
