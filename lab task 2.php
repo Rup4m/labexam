@@ -66,5 +66,13 @@
                 <button onclick="addCourse()">Add Course</button>
                 <div id="course list"></div>
             </div>
+
+
+
+
+            <script>
+
+                
+                </script>
         </body>
 </html>
