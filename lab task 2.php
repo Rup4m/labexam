@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student regstration </title>
+
+        <style>
+            body{
+                font-family:Arial,sans-serif;
+                padding:20px;
+                background-color: #b8d2ebff
+
+            }
+
+            form, .course{
+                background-color: #ccc9c9ff;
+                padding:20px;
+                width: 320px;
+                margin: 20px auto;
+                border: 1px solid #59b3f0ff
+                 border-radius: 5px;
+            }
+
+            input, button{
+                width: 100%;
+                padding:8px;
+                margin-top: 8px;
+                border: 1px solid #0e60ccff;
+                border-radius: 4px;
+            }
+
+            
+
+            </style>
+            </head>
+
+
+
+        <body>
+            <form onsubmit="return handleStudentSubmit()">
+                <h2>Stupent Registration</h2>
+
+
+
+                Full Name:
+                <input type="text" id="full name">
+
+                Email:
+                <input type="email" id="email">
+
+                Password:
+                <input type="password" id="password">
+
+                Confirm Password:
+                <input type="password" id="confirm password">
+
+                <button type="submit">Register</button>
+            </form>
+
+
+            <div class="course">
+                <h2>Course Rehistraion</h2>
+
+                Course Name:
+                <input type="text" id="course name">
+
+                <button onclick="addCourse()">Add Course</button>
+                <div id="course list"></div>
+            </div>
+        </body>
+</html>
