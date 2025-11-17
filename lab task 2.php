@@ -89,6 +89,17 @@
                         return false;
                     }
 
+                    if(password !== cpassword){
+                        errorDiv.innerHTML="passwords do not match.";
+                        return false;
+                    }
+
+                    successBox.innerHTML=<b>Registration successful!</b>;
+                    Name: ${name} <br>
+                    Email: ${email}
+                    ;
+                    return false;
+
                 }
                 </script>
         </body>
