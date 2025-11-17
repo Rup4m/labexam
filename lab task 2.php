@@ -74,7 +74,20 @@
 
                 function handleStudentSubmit(){
                     var name= document.getElementById("fullName").value.trim();
-                    
+                    var email= document.getElementById("email").value.trim();
+                    var password= document.getElementById("password").value;
+                    var cpassword= document.getElementById("confirmPassword").value.trim;
+
+                    var errorDiv= document.getElementById("error");
+                    var successBox= document.getElementById("successBox");
+
+                    errorDiv.innerHTML="";
+                    successBox.style.display="none";
+
+                    if (name== "" || email== "" || password== "" || cpassword== ""){
+                        errorDiv.innerHTML="please fill all the fields.";
+                        return false;
+                    }
 
                 }
                 </script>
